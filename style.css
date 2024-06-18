@@ -11,8 +11,8 @@
 
 .esquerda {
     display: flex;
-    align-items: column; 
-    justify-content: center;
+    flex-direction: column;
+    
     width: 15%;
     height: 100vh;
     background-color: gray;
@@ -27,7 +27,11 @@
 
 .topo .botao{
     font-weight: bold;
-    text-decoration: dashed;
+    text-decoration: none;
     color: black;
     font-size: 18px;
+}
+
+.meio {
+    display: flex;
 }
