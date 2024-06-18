@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+
+.esquerda {
+    display: flex;
+    align-items: column; 
+    justify-content: center;
+    width: 15%;
+    height: 100vh;
+    background-color: gray;
+    /* padding: 10px; */
+}
+
+.topo {
+    margin: 20px 20px 20px 0px;
+    display: flex;
+    gap: 5px;
+}
+
+.topo .botao{
+    font-weight: bold;
+    text-decoration: dashed;
+    color: black;
+    font-size: 18px;
+}
