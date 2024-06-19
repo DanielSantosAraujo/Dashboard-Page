@@ -35,7 +35,6 @@
 
 .meio {
     display: flex;
-<<<<<<< HEAD
     flex-direction: column;
     align-items: start;
     padding-left: 15px;
@@ -50,8 +49,7 @@
     color: gray;
     padding: 10px;
 }
-=======
-}
+
 
 .to{
 display: flex;
@@ -60,4 +58,3 @@ justify-content: center;
 width: 100%;
 height: 100vh;    
 }
->>>>>>> 0b804c0f5f872ebf885160464a01e8d113ca1fbf
