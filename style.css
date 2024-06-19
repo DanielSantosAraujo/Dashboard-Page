@@ -8,14 +8,15 @@
     display: flex;
 }
 
-
+/* #FF00FF  8800FF*/
 .esquerda {
     display: flex;
     flex-direction: column;
-    background-color: purple;
-    width: 15%;
+    background-color: white;
+    width: 13%;
     height: 100vh;
     /* padding: 10px; */
+    border-right: 1px solid gray;
 }
 
 .topo {
@@ -29,9 +30,10 @@
 
 .topo .botao{
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 8px;
     font-weight: bold;
-    justify-content: space-between;
     text-decoration: none;
     color: black;
     font-size: 14px;
@@ -51,12 +53,24 @@
     align-items: center;
     text-decoration: none;
     justify-content: center;
-    gap: 10px;
+    transition: all ease 300ms;
+    gap: 1rem;
     color: gray;
     padding: 5px;
     font-size: 10px;
-    margin: 5px;
     margin-top: 10px;
+}
+
+.meio a:hover{
+    color: blueviolet;
+    background-color: #e5adff;
+    border-left: 4px solid #c145fa;
+    height: 40px;
+    padding-right: 25px;
+}
+
+.meio a:hover span{
+    margin-left: 1rem;
 }
 
 .vinte-seis{
