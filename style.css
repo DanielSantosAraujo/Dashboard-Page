@@ -53,12 +53,15 @@
     align-items: center;
     text-decoration: none;
     /* justify-content: center; */
-    transition: all ease 300ms;
+    /* transition: all ease 300ms; */
     gap: 10px;
     color: gray;
     padding: 5px;
     font-size: 10px;
     margin-top: 10px;
+}
+.meio:hover{
+    padding-left: 20px;
 }
 
 .meio a:hover{
@@ -68,6 +71,7 @@
     height: 40px;
     /* padding: 10px; */
     padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 .meio a:hover span{
