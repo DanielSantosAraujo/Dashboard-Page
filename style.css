@@ -70,12 +70,12 @@
     border-left: 4px solid #c145fa;
     height: 40px;
     /* padding: 10px; */
-    padding-right: 1rem;
-    padding-left: 1rem;
+    /* padding-right: 1rem;
+    padding-left: 1rem; */
 }
 
 .meio a:hover span{
-    /* margin-left: 1rem; */
+    /* margin-left: 1rem;  */
     /* padding-right: 30px; */
 }
 
